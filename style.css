@@ -83,6 +83,17 @@ body {
 .button:hover {
   opacity: 0.5;
 }
+.delete{
+  text-align: center;
+  margin-top: 1rem;
+  background-color:#f1a33c;
+  padding: 1rem;
+  border-radius: 2rem;
+  width:14rem ;
+  }
+.delete:hover {
+  opacity: 0.5;
+}
 
 @media screen and (max-width: 576px) {
   .calculator {
@@ -104,4 +115,7 @@ body {
     padding-left: 1.3rem;
     width: 8rem;
   }
+  .delete {
+    width: 12rem;}
+  
 }
